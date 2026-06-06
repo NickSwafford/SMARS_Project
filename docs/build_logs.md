@@ -77,3 +77,9 @@ Black - Vin
 - I also tested the sensor. Not super in depth, but I confirmed that it can connect to the Grove 2 port and that it can turn on. I haven't tried getting any readouts yet because I'm simply just not there yet. 
 - Since this has been a day long ordeal of attempting to get MicroPython and the tests to work, I'm stopping progress a little early, but I am happy my components are working.
 - As a last note before I forget: The wheels I printed out are somehow too big so that the shaft of the motor just spins inside it, which is annoying.
+
+## 2026-06-06 - Testing Out Switching From Thronny to VSCode for Ease of Code Documentation
+- While I was testing with Thronny the thought occured to me that I wouldn't be super easily able to document my progress with the code if I have to manually transfer the files over to here every time I changed something. So I looked into it and there's actually a well documented extention for VS Code where I can edit the code from there and still successfully connect to the Pico 2W.
+- This is a good development for me because I am accustommed to coding in VSCode and I enjoy the perks that it comes with like my favorite color palette and easy Git control.
+- It wasn't totally smooth sailing to get it setup, but I am happy to say that I have my code development under the code folder, which has been initialized with the MicroPico extension.
+- I had to set up "Preferences: Open User Settings (JSON)" so that if I ever upload my code directly onto the board, it only takes things out of my code folder. I tested this and it did only pull the files I wanted it to. The alternative to uploading the entire project is to upload individual files one by one, but just in case I wanted to take this precaution.
