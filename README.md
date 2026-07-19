@@ -14,11 +14,11 @@ Personal project where I learn the basics of robotics through a SMARS-like build
 Parts ordered / chassis design in progress
 
 ## Hardware
-Main Controller: Cytron Robo Pico from RobotShop
-Microcontroller: Raspberry Pi Pico WH from Amazon (I overpaid)
-Sensor: Pololu VL53L5CX Laser ToF sensor from Pololu
-Motors: N20 6V 150RPM encoder motors from Amazon
-Power: 4xAA NiMh batteries from Amazon
+- Main Controller: Cytron Robo Pico from RobotShop
+- Microcontroller: Raspberry Pi Pico WH from Amazon (I overpaid)
+- Sensor: Pololu VL53L5CX Laser ToF sensor from Pololu
+- Motors: N20 6V 150RPM encoder motors from Amazon
+- Power: 4xAA NiMh batteries from Amazon
 
 ## Software
 Explain PC script and robot firmware.
