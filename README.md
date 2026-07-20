@@ -4,6 +4,7 @@ Personal project where I learn the basics of robotics through a SMARS-like build
 ## Project Goals
 - Learn FreeCAD 3D modeling
 - Make use of my 3D printer
+- Learn C++
 - Learn laser time-of-flight sensing
 - Build a small robot drivetrain
 - Implement Xbox controller driving of the robot
@@ -11,7 +12,7 @@ Personal project where I learn the basics of robotics through a SMARS-like build
 - Implement obstacle avoidance and distance-triggered alerts
 
 ## Current Status
-Parts ordered / chassis design in progress
+Transitioning to C++ and developing hardware tests
 
 ## Hardware
 - Main Controller: Cytron Robo Pico from RobotShop
