@@ -12,12 +12,12 @@
 ## 2026-05-24 — Motor inspection
 - Motors arrived with six exposed wires: red, black, green, yellow, blue, white.
 - Confirmed that the wire colors are not to be trusted. Correct labeling is as follows:
-White - M1
-Red - M2
-Blue - GND
-Green - C1
-Yellow - C2
-Black - Vin
+    - White - M1
+    - Red - M2
+    - Blue - GND
+    - Green - C1
+    - Yellow - C2
+    - Black - Vin
 - Other parts have begun to arrive. I now have the Pico W, the motors, the batteries, the battery holder and the sensor. I am awaiting the arrival of the Robo Pico.
 
 ## 2026-05-25 - Learning to Solder
@@ -83,3 +83,11 @@ Black - Vin
 - This is a good development for me because I am accustommed to coding in VSCode and I enjoy the perks that it comes with like my favorite color palette and easy Git control.
 - It wasn't totally smooth sailing to get it setup, but I am happy to say that I have my code development under the code folder, which has been initialized with the MicroPico extension.
 - I had to set up "Preferences: Open User Settings (JSON)" so that if I ever upload my code directly onto the board, it only takes things out of my code folder. I tested this and it did only pull the files I wanted it to. The alternative to uploading the entire project is to upload individual files one by one, but just in case I wanted to take this precaution.
+- I will say that VSCode doesn't recognize "machine" as a package so it throws a warning with a yellow squiggly line, but the code still works, so its not a big deal. Just annoying.
+
+## 2026-07-19 - Getting Back Into The Swing of Things + Project Path correction
+- It has been a little over a month since I have been able to spend any real meaningful effort to continue this project. Throughout the extended break, I have considered several aspects of this project. Here is what I have decided:
+    1. I will be moving away from MicroPython and instead continue working on the project in Arduino/C++. This decision is a reflection of my desire to grow my skillset in other coding languages besides Python. In addition, it is strictly the better language to program a robot in since it is a compiler language and will save processing power/time. I do not currently have skills to code in C++, but I am hoping that I get to learn those skills throughout this project.
+    2. I need to go back and reconfigure my 3D model for the "eye" of my robot, aka the VL52L5CX sensor holder. Currently, the sliding function works as intended, but I had failed to consider how the male dupont wires would stick out of the back of the sensor and then how the wires would physically make it back to the microcontroller. I had assumed the hole I left would be adequate, but as I put it on the main chassis, I realized that assumption was incorrect and that the hole was largely plugged by the side of the chassis. That was a crucial design error that I need to improve upon. So my current idea is to hop back into FreeCAD and instead of having the eye be on the very front of the chassis, I will have it raised up higher to allow for better wiring access.
+    3. I should begin approaching this project with a more rigorous testing methodology. By that, I mean that my goals shouldn't just be to get the robot up and running, but to also be running quantitative tests on every aspect of the robot to get useful telemetry and meaningful data that I can then use to show performance statistics.
+- Today my goal is to get the MicroPython I currently have flashed on my microcontroller replaced with the Arduino/C++ software instead. In addition to that, I would like to get my setup correctly oriented again in VSCode so that I do not have to use Arduino IDE. Whether or not that is possible currently is yet to be seen, but I vastly prefer using VSCode over other IDEs.

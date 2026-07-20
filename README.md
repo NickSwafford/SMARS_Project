@@ -17,7 +17,7 @@ Parts ordered / chassis design in progress
 - Main Controller: Cytron Robo Pico from RobotShop
 - Microcontroller: Raspberry Pi Pico WH from Amazon (I overpaid)
 - Sensor: Pololu VL53L5CX Laser ToF sensor from Pololu
-- Motors: N20 6V 150RPM encoder motors from Amazon
+- Motors: 2x N20 6V 150RPM encoder motors from Amazon
 - Power: 4xAA NiMh batteries from Amazon
 
 ## Software
